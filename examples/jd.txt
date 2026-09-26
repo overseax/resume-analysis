@@ -1,0 +1,7 @@
+全栈开发工程师
+
+岗位要求：
+- 熟练使用 Python、FastAPI 开发后端服务
+- 熟悉 TypeScript、React 前端开发
+- 掌握 SQL、Redis 和 Docker
+- 有调用 DeepSeek 或其他大模型 API 的项目经验

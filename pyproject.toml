@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "resume-analysis-cli"
+version = "0.1.0"
+description = "AI-powered PDF resume extraction and JD matching CLI"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+resume-cli = "resume_cli.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/resume_cli"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
